@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>This is the title of the page</title>
+    </head>
+
+    <body>
+        <h1 id="top">This is the main heading</h1>
+        	<p>This text might be <del>a</del> <ins>an</ins> introduction to the rest of the page.<p>
+        	<a href="#Sub-Heading1">sub-heading1</a> <br />
+        	<a href="#Sub-Heading">sub-heading</a>   <br />
+        <hr />
+
+        <h2 id="Sub-Heading1">This is a Sub-Heading1.</h2>
+        	<p>内容</p>
+        <h2 id="Sub-Heading">Another Sub-Heading.</h2>
+        	<p><abbr title="Professor">Prof</abbr>Stephen Hawking is a<em>theoretical</em>physicist.</p>
+        	<p>
+        	<table>
+        		<tr>
+        			<th></th>
+        			<th scope="col">Saturday</th>
+        			<th scope="col">Sunday  </th>
+        		</tr>
+        		<tr>
+        			<th scope="row">Tickets sold:</th>
+        			<td>120</td>
+        			<td>150</td>
+        		</tr>
+        		<tr>
+        			<th scope="row">Total sales:</th>
+        			<td>&yen600</td><!--转义字符-->
+        			<td>&yen750</td>
+        		</tr>
+        	</table>
+        	</p>
+
+        <h2>设计者详细信息</h2>
+        	<address>
+        		<p> <a href="mailto:1289950785@qq.com">
+        			1289950785@qq.com </a>
+        		</p>
+        	</address>
+
+        	<form action="http://www.example.com/subscribe.php" method="get">
+        		<p>this is where the form controls will appear.</p>
+        		<input type="text" name="e-mail" />
+        		<input type="submitb" name="subscribe" value="Subscribe" />
+        	</form>
+        	<form action="http://www.example.com/login.php">
+        		<p>Username:
+        			<input type="text" name="username" size="15" maxlength="30" />
+        		</p>
+        		<p>password:
+        			<input type="password" name="password" size="15" maxlength="30" required="required" />
+        		</p>
+        	</form>
+        	<form action="http://www.example.com/profile.php">
+        		<p>Please chose your favourite genre:<br>
+        			<input type="radio" name="genre" value="rock" checked="checked" />Rock
+        			<input type="radio" name="genre" value="pop"  />Pop
+        			<input type="radio" name="genre" value="jazz" />Jazz
+        		</p>
+
+        		<p>What device do you like to listen to music on?</p>
+        		<select name="devices">
+        			<option value="iPod">        iPod        </option>
+        			<option value="mobile phone">mobile phone</option>
+        			<option value="computer">    computer    </option>
+        		</select>
+
+        		<p>you can select more than one option</p>
+        		<select name="instruments" size="4" multiple="multiple">
+        		  <option value="guitar" selected="selected">guitar</option>
+        		  <option value="drums">drums</option>
+        		  <option value="keyboard">keyboard</option>
+        		  <option value="bass" selected="selected">bass</option>
+        		</select>
+        	</form>
+
+        	<form action="http://www.example.com/upload.php" method="post">
+        		<p>Upload your song in MP3 format:</p>
+        		<input type="file" name="user-song" /><br>
+        		<input type="submit" value="Upload" />
+        	</form>
+
+        	<fieldset>
+        		<legend>Contact details</legend>
+        		<label>E-mail:<br />
+        		<input type="text" name="e-mail"></label><br />
+        		<label>Mobile:<br />
+        		<input type="text" name="mobile"></label><br />
+        		<label>Telephone:<br />
+        		<input type="text" name="telephone"></label>
+        	</fieldset>
+
+        	<form action="http://www.example.org/search.php">
+        		<p>Search:</p>
+        		<input type="search" name="search" placeholder="Enter keyword" />
+        		<input type="submit" name="Search" />
+        	</form>
+
+
+        <h2>引文和定义(dfn)</h2>
+        	<p> <cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
+        	<p>
+        		<ul>
+        			<li> <a href="index.html">Home</a> </li>
+        			<li> <a href="about-us">About</a> </li>
+        		</ul>
+        	</p>
+        <p> <a href="#top">TO THE TOP</a> </p>
+        
+    </body>
+</html>
